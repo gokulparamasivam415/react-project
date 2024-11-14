@@ -1,0 +1,105 @@
+/* addtocart.css */
+
+.add-to-cart-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #a7a6a6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.cart-items {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.cart-item {
+  display: flex; /* Flex for horizontal alignment */
+  align-items: center; /* Center items vertically */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 5px 0;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  justify-content: space-between; /* Space between items */
+}
+
+.cart-item-image {
+  width: 150px; /* Image size */
+  height: 150px; /* Image size */
+  object-fit: cover;
+  padding-left: 25px;
+  
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  text-align: center; /* Center align text */
+  display: flex; /* Flex for vertical layout */
+  flex-direction: column; /* Stack items vertically */
+}
+
+.cart-item-details h3 {
+  margin: 0;
+  font-size: 18px; /* Adjust font size */
+  font-weight: bold; /* Bold font */
+  color: #333;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the buttons */
+}
+
+.quantity-controls button {
+  background-color: #4caf50; /* Button color */
+  border: none;
+  color: white; /* Button text color */
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px; /* Font size */
+  border-radius: 3px; /* Rounded corners */
+}
+
+.quantity-controls button:hover {
+  background-color: #45a049; /* Button hover color */
+}
+
+.quantity-controls span {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.cart-summary {
+  margin-top: 20px; /* Space above the summary */
+}
+
+.cart-summary h3 {
+  font-size: 20px; /* Font size for total amount */
+  font-weight: bold; /* Make it bold */
+  color: #000; /* Color for total amount */
+}
+
+.buy-button {
+  margin-top: 15px; /* Space above the button */
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #45a049; /* Button hover color */
+}

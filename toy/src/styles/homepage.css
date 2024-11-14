@@ -1,0 +1,146 @@
+/* Overall Container */
+.homepage-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0e0e0f;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+.login-button,
+.signup-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  background-color: #ff6600; /* Matching the "Buy Now" button color */
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: #ff4500; /* Matching hover effect */
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #d31a1a;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #080723;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #e1e1e1;
+}
+
+/* Featured Products Section */
+.featured-products {
+  margin-bottom: 40px;
+}
+
+.featured-products h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+
+}
+
+.product-item {
+  background-color: #f2f8f8;
+  border: 1px solid #d01515;
+  padding: 20px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.product-item p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.buy-now-button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now-button:hover {
+  background-color: #ff4500;
+}
+
+/* About Us Section */
+.about-us {
+  margin-bottom: 40px;
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-us p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #1b0202;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer p {
+  margin: 0;
+}
